@@ -1,0 +1,32 @@
+{
+  "candidate": "Figure_13",
+  "source_script": "build_figure_13.py",
+  "canvas_mm": {
+    "width": 179.9,
+    "height": 150
+  },
+  "dpi": 600,
+  "preview_dpi": 300,
+  "pixel_dimensions": {
+    "width": 4249,
+    "height": 3543
+  },
+  "mode": "RGB",
+  "format": "TIFF",
+  "compression": "tiff_lzw",
+  "font_sizes_pt": [
+    8.0025,
+    8.25,
+    9.0,
+    12.75
+  ],
+  "minimum_font_pt": 8,
+  "minimum_graphic_stroke_pt": 2,
+  "text_collision_check": "pass",
+  "text_canvas_bounds_check": "pass",
+  "illustration_rendering": "editable vector shapes; selected source icons traced; landscapes redrawn as colored vector scenes",
+  "svg_path_count": 128,
+  "embedded_svg_raster_images": 0,
+  "editable_vector_svg": "Figure_13.svg",
+  "raster_preview": "Figure_13.png"
+}
