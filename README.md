@@ -4,6 +4,8 @@ This repository provides selected data, scripts, figures, and supplementary mate
 
 **Affective Information Transmission in Cross-Species Acoustic Communication: Evidence for Multiscale Acoustic–Affective Organization**
 
+Public repository: <https://github.com/berardorodriguez/cross-species-acoustic-communication-research>
+
 The materials support inspection and selected reproduction routes for the analyses and figures described in the article. The full source-audio corpus is not included.
 
 ## Contents
