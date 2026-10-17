@@ -1,0 +1,7 @@
+check,result,details
+Scientific processing,PASS,Frozen PC1/PC2 coordinates plotted verbatim; no PCA refit or new analysis.
+Source-derived counts and class membership,PASS,MICRO n=186 and MACRO n=529; all classes and ranges recorded in final metadata.
+Raster format and dimensions,PASS,"PNG/JPEG/TIFF are RGB, 2125 x 992 px, 300 dpi; TIFF uses lossless LZW."
+Publication size and text/strokes,PASS,Approximately 179.92 x 83.99 mm; visible text >=8 pt; axes and ticks 2 pt; sub-2-pt gridlines omitted.
+Rebuild provenance,PASS,"Builder, source-derived plot tables, and exported image hashes are recorded in package metadata."
+Interpretive boundary,PASS,MICRO and MACRO are separate PCA geometries; coordinates do not represent a shared-space trajectory.

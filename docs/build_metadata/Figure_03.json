@@ -1,0 +1,84 @@
+{
+  "figure": 3,
+  "build_status": "reproduced_from_packaged_data",
+  "science": "No PCA refit or new analysis; packaged coordinates are plotted verbatim.",
+  "builder_sha256": "25b96da5da21df684c88070d9ec4fe15f3f7889e6d49cbd57a65c85ebf607d17",
+  "layout": {
+    "width_mm": 180,
+    "height_mm": 84,
+    "pixels": [
+      2125,
+      992
+    ],
+    "dpi": 300,
+    "mode": "RGB"
+  },
+  "panels": {
+    "MICRO": {
+      "n": 186,
+      "PC1_range": [
+        -7.200983662744846,
+        46.24003708019298
+      ],
+      "PC2_range": [
+        -18.8614831936145,
+        23.07811379744769
+      ],
+      "class_counts": {
+        "GC": 12,
+        "LFC": 13,
+        "HFC": 149,
+        "PSC": 12
+      }
+    },
+    "MACRO": {
+      "n": 529,
+      "PC1_range": [
+        -3210.3444170971616,
+        521.5595975045518
+      ],
+      "PC2_range": [
+        -3268.4620889943594,
+        487.21042139904864
+      ],
+      "class_counts": {
+        "GC": 429,
+        "LFC": 23,
+        "HFC": 55,
+        "PSC": 22
+      }
+    }
+  },
+  "sources": [
+    {
+      "plot_data": "data\\derived\\figure_03\\Figure03_MICRO_plot_data.csv",
+      "plot_data_sha256": "b8a832695560f830f179a3a2f988d0edeb0fa677deebb3f9b15da6fb7d444d51",
+      "n": 186
+    },
+    {
+      "plot_data": "data\\derived\\figure_03\\Figure03_MACRO_plot_data.csv",
+      "plot_data_sha256": "b70092a192cd1108437af62be04b569c2a181f98a719c29f7a2037344b4f5436",
+      "n": 529
+    }
+  ],
+  "exports": [
+    {
+      "file": "Figure_03.png",
+      "sha256": "c0674e365e6ce1636a6d35a1e6adfa31b9457cc6e29fd3301b4086f8c6eb4186"
+    },
+    {
+      "file": "Figure_03.jpg",
+      "sha256": "7af2189932c9805a3ed07a661fc59c7a9c8ff62b3c2363a767c388bfae44b718"
+    },
+    {
+      "file": "Figure_03.tif",
+      "sha256": "489f3bc7075024528201af02b6f0e3519470035b3392418878346ce31f6cdadd"
+    }
+  ],
+  "frontiers_checks": {
+    "minimum_visible_text_pt": 8,
+    "axes_and_ticks_pt": 2,
+    "gridlines": "omitted; no sub-2-pt grid strokes",
+    "format_check": "passed"
+  }
+}

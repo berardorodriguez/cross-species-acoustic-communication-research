@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.venv/
+venv/
+outputs/
+figures/main/*/00_FINAL/
+figures/main/*/02_PROVENANCE/
+figures/supplementary/*/00_FINAL/
+figures/supplementary/*/00_REBUILD/
+figures/supplementary/*/02_PROVENANCE/
+tmp/

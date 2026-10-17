@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >-
+  If you use these research materials, please cite the associated article and
+  this repository. Add the final article citation and repository identifier
+  when they are available.
+title: >-
+  Research materials for Affective Information Transmission in Cross-Species
+  Acoustic Communication: Evidence for Multiscale Acoustic–Affective
+  Organization
+type: software
+authors:
+  - given-names: Patricia
+    family-names: Betancourth-Chaves
+  - given-names: John Jairo
+    family-names: Montoya-Zuluaga
+  - given-names: Natalia
+    family-names: Alvarez-Hernandez
+  - given-names: Angélica María
+    family-names: Zuluaga-Cabrera
+  - given-names: Dario
+    family-names: Vallejo-Timarán
+  - given-names: Maria Camila
+    family-names: Ceballos
+  - given-names: Berardo de Jesús
+    family-names: Rodríguez

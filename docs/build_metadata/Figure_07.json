@@ -1,0 +1,62 @@
+{
+  "figure": 7,
+  "nominal_width_mm": 180,
+  "nominal_height_mm": 250,
+  "pixel_dimensions": [
+    2126,
+    2953
+  ],
+  "dpi": 300,
+  "input_sha256": {
+    "data\\derived\\figure_07\\acoustic_curves.npz": "488b5787b2fd87303d87de686546e69d0ae1643a0e407e8f69daeea266bb2794",
+    "figures\\support\\figure_07\\score_excerpt.png": "ecfc1edeaf472e705f991ba6e3b3b1876a79155f1172c7613a819bdecf2339df",
+    "data\\derived\\figure_07\\O1_section_01_spectrogram.npz": "37510bdbea1ffb58dce716ab392f69591e28c37ebab9b9d84670ab347d09a7fc",
+    "data\\derived\\figure_07\\O1_section_07_spectrogram.npz": "5ee4b54a43d7f0be7b3300514e8acd9b3df9f47880f7d1ffe3980b02c413d9fa",
+    "data\\derived\\figure_07\\O1_section_13_spectrogram.npz": "3cbcc2f956b1e1323f380420f20a6721148ac5076b5b70c2d2b55d7bd66ad0d9",
+    "data\\derived\\figure_07\\O2_section_01_spectrogram.npz": "229872b1161a48f7ec1285538ad890a9fe6c6dc28c4c4c5979be2ce8fb1897ad",
+    "data\\derived\\figure_07\\O2_section_07_spectrogram.npz": "9f2b76344a4a7b049a0cad82873a177a0d3efb097c4f1885876e81107ada73a1",
+    "data\\derived\\figure_07\\O2_section_13_spectrogram.npz": "a368ceeaeddd59320899c8619ba30568817ae9f6fdb4e4564163be51fdbee775"
+  },
+  "script_sha256": "cb4786717efe72a74eb868ba52ff6bb77fe934cb766dfaa7cd10602d11623183",
+  "exports": [
+    {
+      "file": "Figure_07.png",
+      "sha256": "cf040f2532c3223c1f4971c9a9e9004b41ea6514616e8f65e00c445ddfd3875f",
+      "pixels": [
+        2126,
+        2953
+      ],
+      "mode": "RGB",
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "Figure_07.jpg",
+      "sha256": "73150b27634e37edf6e262b3e845a4ed8860f251cc146ab89d6bdc75e5581f15",
+      "pixels": [
+        2126,
+        2953
+      ],
+      "mode": "RGB",
+      "dpi": [
+        300.0,
+        300.0
+      ]
+    },
+    {
+      "file": "Figure_07.tif",
+      "sha256": "c758edc2dd749018c04c0b790caf68991f58b5e887b8437fc848e86e463b41e2",
+      "pixels": [
+        2126,
+        2953
+      ],
+      "mode": "RGB",
+      "dpi": [
+        300.0,
+        300.0
+      ]
+    }
+  ]
+}

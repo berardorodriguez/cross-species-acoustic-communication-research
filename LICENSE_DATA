@@ -1,0 +1,17 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Scope
+
+This license applies only to the 60 dataset files enumerated in `docs/DATA_LICENSE_FILE_MANIFEST.csv` (49 CSV files, three JSON metadata files, and eight NPZ-derived acoustic data files). No other file is covered by this notice. The manifest is the controlling file list for this license. Documentation, other provenance records, scripts, images, audio, supplementary documents, and files in `outputs/` are outside its scope unless a separate notice expressly says otherwise.
+
+The covered data files are released by Berardo de Jesús Rodríguez, as director of the research and research group, with authorization to share the research-derived data under CC BY 4.0. Please attribute the data to Berardo de Jesús Rodríguez and the associated research team, cite the associated manuscript, and identify any changes. Files containing BovineTalk-derived values should also credit Gavojdian et al. (2024), *BovineTalk: Machine Learning for Vocalization Analysis of Dairy Cattle under the Negative Affective State of Isolation*, DOI 10.3389/fvets.2024.1357109, and link to the [BovineTalk dataset project](https://gitlab.com/is-annazam/bovinetalk). Those derived values are included under the author's direction to proceed on the assumption that the public dataset is reusable under CC BY. Use the repository's `CITATION.cff` for the manuscript citation when its final publication details are available.
+
+The covered tables may contain source identifiers, names, or relative paths for traceability. This license applies to the listed table files, including their attributed BovineTalk-derived values; the author includes those values under the working assumption that the public BovineTalk dataset is reusable under CC BY. No underlying BovineTalk recording is included or licensed here. This notice does not grant access to, or permission to copy, distribute, or reuse, any source audio or other material that is not one of the listed files. Audio is governed separately by `LICENSE_AUDIO`; software is governed separately by `LICENSE_CODE`.
+
+The covered dataset files are licensed under the Creative Commons Attribution 4.0 International license. The license text is available at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+This notice does not itself establish rights in excluded materials or waive restrictions that apply to them.
+
+
+
