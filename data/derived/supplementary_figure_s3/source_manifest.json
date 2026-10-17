@@ -1,0 +1,9 @@
+{
+  "total_windows": 552,
+  "windows_per_work": {
+    "O1": 276,
+    "O2": 276
+  },
+  "window_duration_seconds": 5,
+  "source_audio_distributed": false
+}

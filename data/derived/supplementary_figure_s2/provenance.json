@@ -1,0 +1,84 @@
+{
+  "figure": "Supplementary Figure S2",
+  "status": "reproducible_build_from_packaged_inputs",
+  "scientific_scope": "Descriptive association across nine category summaries; not independent validation and not an individual-animal prediction.",
+  "acoustic_distance": "Euclidean distance between category-wise median centroids in LNU1-LNU2; reference is the PASTOREO (bovine grazing-call) centroid; matches the coordinate source and distance construction used by Supplementary Table S1.",
+  "behavior_endpoint": "((p1_mean + p2_mean + p3_mean) / herd_est) * 60; source-directed group orientation expressed as s/min-equivalent.",
+  "endpoint_formula_max_abs_difference_from_mirar_prop_x60": 5.329070518200751e-15,
+  "category_summaries": 9,
+  "group_level_one_minute_intervals": 90,
+  "spearman_rho": -0.8499999999999999,
+  "spearman_p_value": 0.003704777327585813,
+  "no_linear_fit": true,
+  "sources": {
+    "data/derived/figure_05/Figure05_behavior_hrv_minute_level.csv": {
+      "path": "data/derived/figure_05/Figure05_behavior_hrv_minute_level.csv",
+      "sha256": "2456ef2b723e630ad3197130f82766d6d2376b323f06cb44b74e96dce3e96f45"
+    },
+    "data/derived/figure_05/Figure05A_OAAS_plot_data.csv": {
+      "path": "data/derived/figure_05/Figure05A_OAAS_plot_data.csv",
+      "sha256": "830a91a1c777047a97ab23906178aca62728feec4b1b16cadaa66a68ec801a08"
+    }
+  },
+  "derived_source_table": {
+    "path": "data/derived/supplementary_figure_s2/category_distance_orientation.csv",
+    "sha256": "624172140a39a6e586ca7ceb56298b2188a6b69ef214485cdef75856ce59e32c"
+  },
+  "exports": {
+    "Supplementary_Figure_S2.png": {
+      "path": "figures/supplementary/Supplementary_Figure_S2.png",
+      "sha256": "04211dedd780e309c3d97cbc8deb9210b5a3019509ece01a91dcdf0ce4c3c0d1",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2125,
+        1511
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "compression": null
+    },
+    "Supplementary_Figure_S2.jpg": {
+      "path": "figures/supplementary/Supplementary_Figure_S2.jpg",
+      "sha256": "04c371417c14ada4bc6b8404070c2033384d06c615d792b1e892eda457bd274d",
+      "format": "JPEG",
+      "mode": "RGB",
+      "pixels": [
+        2125,
+        1511
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "compression": null
+    },
+    "Supplementary_Figure_S2.tif": {
+      "path": "figures/supplementary/Supplementary_Figure_S2.tif",
+      "sha256": "b32761b0fc2a286abc980980b929d2787fb3977420d83dd5e6c7dfb1d3e7b1de",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        2125,
+        1511
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "compression": "tiff_lzw"
+    }
+  },
+  "production": {
+    "width_mm": 180,
+    "height_mm": 128,
+    "dpi": 300,
+    "color_mode": "RGB",
+    "tiff_compression": "LZW",
+    "minimum_text_pt": 8,
+    "minimum_solid_line_pt": 2,
+    "layout": "single panel; one-page height"
+  }
+}

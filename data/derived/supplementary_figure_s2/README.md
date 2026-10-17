@@ -1,0 +1,5 @@
+# Supplementary Figure S2 derived data
+
+`category_distance_orientation.csv` contains the nine plotted playback-category summaries. The acoustic distance is the Euclidean distance between category-wise median centroids and the grazing-call reference in LNU1–LNU2 coordinates. The behavioral value is the mean source-directed group orientation across repeated one-minute intervals, expressed on an s/min-equivalent scale. These nine summaries are the descriptive units used for the Spearman association; the 90 group-level intervals are not treated as independent category-level observations.
+
+The values are regenerated from `data/derived/figure_05/Figure05_behavior_hrv_minute_level.csv` and `data/derived/figure_05/Figure05A_OAAS_plot_data.csv` by `scripts/figures/supplementary/Figure_S2/build_figure_s2.py`. The script also writes the figure exports under `figures/supplementary/`. See `provenance.json` for source hashes, calculation details, and export properties. The CSV is covered by CC BY 4.0 as listed in `docs/DATA_LICENSE_FILE_MANIFEST.csv`.

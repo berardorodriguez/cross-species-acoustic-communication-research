@@ -1,0 +1,91 @@
+source_scan_row,condition,Tiempo_min,Conteo_CAM
+1,Control,2,3
+2,Control,4,3
+3,Control,6,6
+4,Control,8,7
+5,Control,10,4
+6,Control,12,3
+7,Control,14,8
+8,Control,16,6
+9,Control,18,7
+10,Control,20,4
+11,Control,22,2
+12,Control,24,4
+13,Control,26,3
+14,Control,28,2
+15,Control,30,3
+16,Control,32,2
+17,Control,34,4
+18,Control,36,6
+19,Control,38,7
+20,Control,40,4
+21,Control,42,4
+22,Control,44,7
+23,Control,46,6
+24,Control,48,6
+25,Control,50,3
+26,Control,52,2
+27,Control,54,5
+28,Control,56,3
+29,Control,58,3
+30,Control,60,3
+31,Obonuco,2,7
+32,Obonuco,4,6
+33,Obonuco,6,3
+34,Obonuco,8,8
+35,Obonuco,10,6
+36,Obonuco,12,3
+37,Obonuco,14,6
+38,Obonuco,16,6
+39,Obonuco,18,4
+40,Obonuco,20,4
+41,Obonuco,22,2
+42,Obonuco,24,2
+43,Obonuco,26,3
+44,Obonuco,28,1
+45,Obonuco,30,2
+46,Obonuco,32,8
+47,Obonuco,34,6
+48,Obonuco,36,2
+49,Obonuco,38,8
+50,Obonuco,40,6
+51,Obonuco,42,3
+52,Obonuco,44,6
+53,Obonuco,46,5
+54,Obonuco,48,5
+55,Obonuco,50,5
+56,Obonuco,52,2
+57,Obonuco,54,2
+58,Obonuco,56,4
+59,Obonuco,58,1
+60,Obonuco,60,2
+61,Pink noise,2,2
+62,Pink noise,4,2
+63,Pink noise,6,2
+64,Pink noise,8,1
+65,Pink noise,10,2
+66,Pink noise,12,1
+67,Pink noise,14,2
+68,Pink noise,16,2
+69,Pink noise,18,0
+70,Pink noise,20,1
+71,Pink noise,22,1
+72,Pink noise,24,1
+73,Pink noise,26,0
+74,Pink noise,28,1
+75,Pink noise,30,2
+76,Pink noise,32,2
+77,Pink noise,34,1
+78,Pink noise,36,1
+79,Pink noise,38,1
+80,Pink noise,40,3
+81,Pink noise,42,0
+82,Pink noise,44,3
+83,Pink noise,46,3
+84,Pink noise,48,0
+85,Pink noise,50,1
+86,Pink noise,52,0
+87,Pink noise,54,2
+88,Pink noise,56,0
+89,Pink noise,58,1
+90,Pink noise,60,1

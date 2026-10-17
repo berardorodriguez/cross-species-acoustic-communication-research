@@ -1,0 +1,30 @@
+object_id,family,subdomain,class_micro,class_macro
+Control_01,High-distortion heavy-metal music,human_extreme,HFC,HFC
+Control_02,High-distortion heavy-metal music,human_extreme,HFC,GC
+Control_03,High-distortion heavy-metal music,human_extreme,HFC,HFC
+Control_04,High-distortion heavy-metal music,human_extreme,HFC,GC
+Control_05,Mechanical/environmental sounds,airplane,HFC,GC
+Control_06,Mechanical/environmental sounds,airplane,HFC,GC
+Control_07,Mechanical/environmental sounds,airplane,LFC,GC
+Control_08,Mechanical/environmental sounds,airplane,HFC,GC
+Control_09,Mechanical/environmental sounds,chainsaw,LFC,GC
+Control_10,Mechanical/environmental sounds,chainsaw,HFC,GC
+Control_11,Mechanical/environmental sounds,chainsaw,LFC,GC
+Control_12,Mechanical/environmental sounds,engine,LFC,GC
+Control_13,Mechanical/environmental sounds,engine,LFC,GC
+Control_14,Mechanical/environmental sounds,engine,LFC,GC
+Control_15,Mechanical/environmental sounds,hand_saw,HFC,GC
+Control_16,Mechanical/environmental sounds,hand_saw,HFC,GC
+Control_17,Mechanical/environmental sounds,hand_saw,HFC,GC
+Control_18,Mechanical/environmental sounds,helicopter,HFC,GC
+Control_19,Mechanical/environmental sounds,helicopter,HFC,GC
+Control_20,Mechanical/environmental sounds,helicopter,HFC,GC
+Control_21,Mechanical/environmental sounds,train,LFC,GC
+Control_22,Mechanical/environmental sounds,train,LFC,GC
+Control_23,Mechanical/environmental sounds,train,HFC,GC
+Control_24,Mechanical/environmental sounds,washing_machine,HFC,GC
+Control_25,Mechanical/environmental sounds,washing_machine,LFC,GC
+Control_26,Mechanical/environmental sounds,washing_machine,LFC,GC
+Control_27,Synthetic sounds,synthetic,LFC,GC
+Control_28,Synthetic sounds,synthetic,LFC,GC
+Control_29,Synthetic sounds,synthetic,LFC,GC

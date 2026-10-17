@@ -1,0 +1,385 @@
+﻿id,domain,subdomain,source_extension,codec,channels,sample_rate_hz,nominal_nyquist_hz,bit_depth,duration_seconds,source_size_bytes
+CTRL_HUM_HUMAN_EXTREME_001,acoustic_controls,human_extreme,.wav,PCM,2,44100,22050.0,16,208.0,36691458
+CTRL_HUM_HUMAN_EXTREME_002,acoustic_controls,human_extreme,.wav,PCM,2,44100,22050.0,16,134.0,23637858
+CTRL_HUM_HUMAN_EXTREME_003,acoustic_controls,human_extreme,.wav,PCM,2,44100,22050.0,16,210.0,37044258
+CTRL_HUM_HUMAN_EXTREME_004,acoustic_controls,human_extreme,.wav,PCM,2,44100,22050.0,16,165.165,29135378
+CTRL_MECH_AIRPLANE_001,acoustic_controls,airplane,.wav,PCM,2,44100,22050.0,24,38.266,10125356
+CTRL_MECH_AIRPLANE_002,acoustic_controls,airplane,.wav,PCM,2,44100,22050.0,24,37.431,9904172
+CTRL_MECH_AIRPLANE_003,acoustic_controls,airplane,.wav,PCM,2,44100,22050.0,24,37.988,10051628
+CTRL_MECH_AIRPLANE_004,acoustic_controls,airplane,.wav,PCM,2,44100,22050.0,24,38.174,10100780
+CTRL_MECH_CHAINSAW_001,acoustic_controls,chainsaw,.wav,PCM,2,44100,22050.0,24,31.579,8355884
+CTRL_MECH_CHAINSAW_002,acoustic_controls,chainsaw,.wav,PCM,2,44100,22050.0,24,38.893,10291244
+CTRL_MECH_CHAINSAW_003,acoustic_controls,chainsaw,.wav,PCM,2,44100,22050.0,24,37.212,9846302
+CTRL_MECH_ENGINE_001,acoustic_controls,engine,.wav,PCM,2,44100,22050.0,24,31.15,8242220
+CTRL_MECH_ENGINE_002,acoustic_controls,engine,.wav,PCM,2,44100,22050.0,24,31.347,8294444
+CTRL_MECH_ENGINE_003,acoustic_controls,engine,.wav,PCM,2,44100,22050.0,24,32.707,8654228
+CTRL_MECH_HAND_SAW_001,acoustic_controls,hand_saw,.wav,PCM,2,44100,22050.0,24,38.697,10239158
+CTRL_MECH_HAND_SAW_002,acoustic_controls,hand_saw,.wav,PCM,2,44100,22050.0,24,38.452,10174508
+CTRL_MECH_HAND_SAW_003,acoustic_controls,hand_saw,.wav,PCM,2,44100,22050.0,24,38.266,10125356
+CTRL_MECH_HELICOPTER_001,acoustic_controls,helicopter,.wav,PCM,2,44100,22050.0,24,38.266,10125356
+CTRL_MECH_HELICOPTER_002,acoustic_controls,helicopter,.wav,PCM,2,44100,22050.0,24,40.124,10616876
+CTRL_MECH_HELICOPTER_003,acoustic_controls,helicopter,.wav,PCM,2,44100,22050.0,24,38.545,10199084
+CTRL_MECH_TRAIN_001,acoustic_controls,train,.wav,PCM,2,44100,22050.0,24,38.266,10125356
+CTRL_MECH_TRAIN_002,acoustic_controls,train,.wav,PCM,2,44100,22050.0,24,38.266,10125356
+CTRL_MECH_TRAIN_003,acoustic_controls,train,.wav,PCM,2,44100,22050.0,24,38.266,10125356
+CTRL_MECH_WASHING_MACHINE_001,acoustic_controls,washing_machine,.wav,PCM,2,44100,22050.0,24,38.638,10223660
+CTRL_MECH_WASHING_MACHINE_002,acoustic_controls,washing_machine,.wav,PCM,2,44100,22050.0,24,19.133,5062700
+CTRL_MECH_WASHING_MACHINE_003,acoustic_controls,washing_machine,.wav,PCM,2,44100,22050.0,24,38.359,10149932
+CTRL_SYNTH_NOISE_001,acoustic_controls,synthetic,.wav,PCM,1,44100,22050.0,24,30.0,3969044
+CTRL_SYNTH_NOISE_002,acoustic_controls,synthetic,.wav,PCM,1,44100,22050.0,24,30.0,3969044
+CTRL_SYNTH_NOISE_003,acoustic_controls,synthetic,.wav,PCM,1,44100,22050.0,24,30.0,3969044
+COMP_GEN_AFTER_NURSING_001,animal_comparison,after_nursing,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_AFTER_NURSING_002,animal_comparison,after_nursing,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_BARREN_001,animal_comparison,barren,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_BARREN_002,animal_comparison,barren,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_BEFORE_NURSING_001,animal_comparison,before_nursing,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_BEFORE_NURSING_002,animal_comparison,before_nursing,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_CASTRATION_001,animal_comparison,castration,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_CASTRATION_002,animal_comparison,castration,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_CRUSHING_001,animal_comparison,crushing,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_CRUSHING_002,animal_comparison,crushing,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_ENRICHED_001,animal_comparison,enriched,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_ENRICHED_002,animal_comparison,enriched,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_FIGHTING_001,animal_comparison,fighting,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_FIGHTING_002,animal_comparison,fighting,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_HUDDLING_001,animal_comparison,huddling,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_HUDDLING_002,animal_comparison,huddling,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_LONG_ISOLATION_001,animal_comparison,long_isolation,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_LONG_ISOLATION_002,animal_comparison,long_isolation,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_MISSED_NURSING_001,animal_comparison,missed_nursing,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_MISSED_NURSING_002,animal_comparison,missed_nursing,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_RESTRAIN_001,animal_comparison,restrain,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_RESTRAIN_002,animal_comparison,restrain,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_RUN_001,animal_comparison,run,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_RUN_002,animal_comparison,run,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_SHORT_ISOLATION_001,animal_comparison,short_isolation,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_SHORT_ISOLATION_002,animal_comparison,short_isolation,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_SHORT_REUNION_001,animal_comparison,short_reunion,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_GEN_SHORT_REUNION_002,animal_comparison,short_reunion,.wav,PCM,2,48000,24000.0,16,180.0,34560044
+COMP_SC_FARLOCK_001,animal_comparison,swedish_farlock,.wav,PCM,2,44100,22050.0,24,26.018,6884396
+COMP_SC_FARLOCK_002,animal_comparison,swedish_farlock,.wav,PCM,2,44100,22050.0,24,23.394,6190124
+COMP_SC_GETLOCK_001,animal_comparison,swedish_getlock,.wav,PCM,2,44100,22050.0,24,46.974,12430224
+COMP_SC_GETLOCK_002,animal_comparison,swedish_getlock,.wav,PCM,2,44100,22050.0,24,20.509,5427600
+COMP_SC_GETLOCK_003,animal_comparison,swedish_getlock,.wav,PCM,2,44100,22050.0,24,15.987,4230188
+COMP_SC_KALVLOCK_001,animal_comparison,swedish_kalvlock,.wav,PCM,2,44100,22050.0,24,27.272,7216172
+BCORE_GEN_GC_001,bovine_core,gc,.wav,PCM,1,48000,24000.0,16,1.592,152830
+BCORE_GEN_GC_002,bovine_core,gc,.wav,PCM,1,48000,24000.0,16,1.8,172802
+BCORE_GEN_GC_003,bovine_core,gc,.wav,PCM,1,48000,24000.0,16,2.262,217154
+BCORE_GEN_GC_004,bovine_core,gc,.wav,PCM,1,48000,24000.0,16,1.847,177366
+BCORE_GEN_GC_005,bovine_core,gc,.wav,PCM,1,48000,24000.0,16,0.906,87034
+BCORE_GEN_GC_006,bovine_core,gc,.wav,PCM,1,48000,24000.0,16,2.241,215182
+BCORE_GEN_GC_007,bovine_core,gc,.wav,PCM,1,48000,24000.0,16,2.988,286898
+BCORE_GEN_GC_008,bovine_core,gc,.wav,PCM,1,48000,24000.0,16,1.327,127482
+BCORE_GEN_GC_009,bovine_core,gc,.wav,PCM,1,48000,24000.0,16,1.222,117366
+BCORE_GEN_GC_010,bovine_core,gc,.wav,PCM,1,48000,24000.0,16,4.712,452356
+BCORE_GEN_GC_011,bovine_core,gc,.wav,PCM,1,48000,24000.0,16,3.204,307618
+BCORE_GEN_HFC_001,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.567,150428
+BCORE_GEN_HFC_002,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.472,141314
+BCORE_GEN_HFC_003,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.025,194480
+BCORE_GEN_HFC_004,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.748,167854
+BCORE_GEN_HFC_005,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.756,168656
+BCORE_GEN_HFC_006,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.551,148910
+BCORE_GEN_HFC_007,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.949,187186
+BCORE_GEN_HFC_008,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.424,136758
+BCORE_GEN_HFC_009,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.614,154984
+BCORE_GEN_HFC_010,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.234,118530
+BCORE_GEN_HFC_011,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.456,139794
+BCORE_GEN_HFC_012,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.039,195822
+BCORE_GEN_HFC_013,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.857,178342
+BCORE_GEN_HFC_014,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.803,173098
+BCORE_GEN_HFC_015,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.63,156506
+BCORE_GEN_HFC_016,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.883,180808
+BCORE_GEN_HFC_017,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.535,147390
+BCORE_GEN_HFC_018,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.712,164358
+BCORE_GEN_HFC_019,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.076,199318
+BCORE_GEN_HFC_020,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.967,188830
+BCORE_GEN_HFC_021,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.519,145872
+BCORE_GEN_HFC_022,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.361,130680
+BCORE_GEN_HFC_023,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.456,139796
+BCORE_GEN_HFC_024,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.693,162610
+BCORE_GEN_HFC_025,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.93,185334
+BCORE_GEN_HFC_026,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.149,206310
+BCORE_GEN_HFC_027,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.167,208058
+BCORE_GEN_HFC_028,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.345,129160
+BCORE_GEN_HFC_029,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.756,168656
+BCORE_GEN_HFC_030,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.693,162580
+BCORE_GEN_HFC_031,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.294,220294
+BCORE_GEN_HFC_032,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.44,138276
+BCORE_GEN_HFC_033,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.44,138276
+BCORE_GEN_HFC_034,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.487,142832
+BCORE_GEN_HFC_035,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.784,171350
+BCORE_GEN_HFC_036,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.712,164358
+BCORE_GEN_HFC_037,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.234,118528
+BCORE_GEN_HFC_038,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.677,161062
+BCORE_GEN_HFC_039,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.587,152374
+BCORE_GEN_HFC_040,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.472,141314
+BCORE_GEN_HFC_041,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.203,115490
+BCORE_GEN_HFC_042,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.25,120048
+BCORE_GEN_HFC_043,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.503,144352
+BCORE_GEN_HFC_044,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.329,127642
+BCORE_GEN_HFC_045,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.25,120048
+BCORE_GEN_HFC_046,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.894,181838
+BCORE_GEN_HFC_047,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.857,178342
+BCORE_GEN_HFC_048,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.039,195822
+BCORE_GEN_HFC_049,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.646,158024
+BCORE_GEN_HFC_050,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.329,127642
+BCORE_GEN_HFC_051,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.203,115490
+BCORE_GEN_HFC_052,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.695,258750
+BCORE_GEN_HFC_053,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.392,133718
+BCORE_GEN_HFC_054,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.298,124606
+BCORE_GEN_HFC_055,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.551,148910
+BCORE_GEN_HFC_056,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.021,194074
+BCORE_GEN_HFC_057,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.551,148910
+BCORE_GEN_HFC_058,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.519,145872
+BCORE_GEN_HFC_059,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.155,110934
+BCORE_GEN_HFC_060,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.73,166106
+BCORE_GEN_HFC_061,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.803,173098
+BCORE_GEN_HFC_062,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.361,130680
+BCORE_GEN_HFC_063,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.567,150428
+BCORE_GEN_HFC_064,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.218,117010
+BCORE_GEN_HFC_065,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.336,128282
+BCORE_GEN_HFC_066,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.434,137674
+BCORE_GEN_HFC_067,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.133,108844
+BCORE_GEN_HFC_068,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.424,136756
+BCORE_GEN_HFC_069,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.076,103338
+BCORE_GEN_HFC_070,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.661,159542
+BCORE_GEN_HFC_071,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.82,174732
+BCORE_GEN_HFC_072,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.841,176746
+BCORE_GEN_HFC_073,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.841,176746
+BCORE_GEN_HFC_074,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.654,158852
+BCORE_GEN_HFC_075,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.674,160766
+BCORE_GEN_HFC_076,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.999,191980
+BCORE_GEN_HFC_077,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.65,158468
+BCORE_GEN_HFC_078,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.603,153898
+BCORE_GEN_HFC_079,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.174,112732
+BCORE_GEN_HFC_080,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.13,108502
+BCORE_GEN_HFC_081,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.273,122288
+BCORE_GEN_HFC_082,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.1,201628
+BCORE_GEN_HFC_083,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.913,183736
+BCORE_GEN_HFC_084,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.892,181632
+BCORE_GEN_HFC_085,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.883,180844
+BCORE_GEN_HFC_086,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,4.474,429524
+BCORE_GEN_HFC_087,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.063,198110
+BCORE_GEN_HFC_088,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.355,226104
+BCORE_GEN_HFC_089,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.099,201562
+BCORE_GEN_HFC_090,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.547,244520
+BCORE_GEN_HFC_091,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.705,163758
+BCORE_GEN_HFC_092,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.758,168828
+BCORE_GEN_HFC_093,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,9.581,919862
+BCORE_GEN_HFC_094,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.789,267776
+BCORE_GEN_HFC_095,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.591,248746
+BCORE_GEN_HFC_096,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.025,194428
+BCORE_GEN_HFC_097,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.914,183798
+BCORE_GEN_HFC_098,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.68,257308
+BCORE_GEN_HFC_099,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.797,172580
+BCORE_GEN_HFC_100,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.566,150418
+BCORE_GEN_HFC_101,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.37,131596
+BCORE_GEN_HFC_102,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.98,190140
+BCORE_GEN_HFC_103,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.126,204152
+BCORE_GEN_HFC_104,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.704,163668
+BCORE_GEN_HFC_105,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.736,166704
+BCORE_GEN_HFC_106,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.304,221274
+BCORE_GEN_HFC_107,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,2.999,287912
+BCORE_GEN_HFC_108,bovine_core,hfc,.wav,PCM,1,48000,24000.0,16,1.854,178068
+BCORE_GEN_LFC_001,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.709,164100
+BCORE_GEN_LFC_002,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.551,148910
+BCORE_GEN_LFC_003,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.503,144352
+BCORE_GEN_LFC_004,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.482,142354
+BCORE_GEN_LFC_005,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,2.198,211092
+BCORE_GEN_LFC_006,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.612,154840
+BCORE_GEN_LFC_007,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.614,154986
+BCORE_GEN_LFC_008,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.519,145870
+BCORE_GEN_LFC_009,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.461,140298
+BCORE_GEN_LFC_010,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.851,177698
+BCORE_GEN_LFC_011,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.544,148314
+BCORE_GEN_LFC_012,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.725,165678
+BCORE_GEN_LFC_013,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,2.212,212430
+BCORE_GEN_LFC_014,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.934,185712
+BCORE_GEN_LFC_015,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.851,177700
+BCORE_GEN_LFC_016,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.531,146976
+BCORE_GEN_LFC_017,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,2.073,199070
+BCORE_GEN_LFC_018,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.67,160334
+BCORE_GEN_LFC_019,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,2.115,203080
+BCORE_GEN_LFC_020,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.642,157664
+BCORE_GEN_LFC_021,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,2.769,265858
+BCORE_GEN_LFC_022,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.191,114410
+BCORE_GEN_LFC_023,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,2.031,195064
+BCORE_GEN_LFC_024,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.273,122208
+BCORE_GEN_LFC_025,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.81,173820
+BCORE_GEN_LFC_026,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.315,126290
+BCORE_GEN_LFC_027,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,2.831,271844
+BCORE_GEN_LFC_028,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,0.841,80778
+BCORE_GEN_LFC_029,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.253,120350
+BCORE_GEN_LFC_030,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.068,102528
+BCORE_GEN_LFC_031,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.191,114410
+BCORE_GEN_LFC_032,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.079,103630
+BCORE_GEN_LFC_033,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.501,144114
+BCORE_GEN_LFC_034,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.029,98782
+BCORE_GEN_LFC_035,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.187,113972
+BCORE_GEN_LFC_036,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.424,136758
+BCORE_GEN_LFC_037,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,0.94,90276
+BCORE_GEN_LFC_038,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,0.94,90276
+BCORE_GEN_LFC_039,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.455,139720
+BCORE_GEN_LFC_040,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.111,106680
+BCORE_GEN_LFC_041,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,0.988,94884
+BCORE_GEN_LFC_042,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.24,119044
+BCORE_GEN_LFC_043,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.283,123228
+BCORE_GEN_LFC_044,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.802,173032
+BCORE_GEN_LFC_045,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.036,99520
+BCORE_GEN_LFC_046,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.702,163444
+BCORE_GEN_LFC_047,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.215,116716
+BCORE_GEN_LFC_048,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.349,129594
+BCORE_GEN_LFC_049,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.85,177672
+BCORE_GEN_LFC_050,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.802,173032
+BCORE_GEN_LFC_051,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.621,155614
+BCORE_GEN_LFC_052,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.478,141900
+BCORE_GEN_LFC_053,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.307,125484
+BCORE_GEN_LFC_054,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.194,114634
+BCORE_GEN_LFC_055,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.618,155402
+BCORE_GEN_LFC_056,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.578,151556
+BCORE_GEN_LFC_057,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.578,151552
+BCORE_GEN_LFC_058,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.101,105700
+BCORE_GEN_LFC_059,bovine_core,lfc,.wav,PCM,1,48000,24000.0,16,1.583,152030
+BCORE_GEN_PSC_001,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.109,106534
+BCORE_GEN_PSC_002,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.556,149396
+BCORE_GEN_PSC_003,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.707,163886
+BCORE_GEN_PSC_004,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.289,123760
+BCORE_GEN_PSC_005,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.347,129334
+BCORE_GEN_PSC_006,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,0.464,44628
+BCORE_GEN_PSC_007,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,2.055,197322
+BCORE_GEN_PSC_008,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.944,186710
+BCORE_GEN_PSC_009,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.629,156438
+BCORE_GEN_PSC_010,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.777,170598
+BCORE_GEN_PSC_011,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,0.766,73606
+BCORE_GEN_PSC_012,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.046,100432
+BCORE_GEN_PSC_013,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,0.673,64690
+BCORE_GEN_PSC_014,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,0.737,70842
+BCORE_GEN_PSC_015,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,2.073,199062
+BCORE_GEN_PSC_016,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,0.967,92896
+BCORE_GEN_PSC_017,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,2.136,205124
+BCORE_GEN_PSC_018,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.451,139366
+BCORE_GEN_PSC_019,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.161,111502
+BCORE_GEN_PSC_020,bovine_core,psc,.wav,PCM,1,48000,24000.0,16,1.474,141594
+UNC_BG_CHOIR_MIXED_001,human_uncertain,bulgarian_choir_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),170.449,2949832
+UNC_BG_CHOIR_MIXED_002,human_uncertain,bulgarian_choir_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),189.989,3186545
+UNC_BG_CHOIR_MIXED_003,human_uncertain,bulgarian_choir_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),121.652,2000630
+UNC_BG_CHOIR_MIXED_004,human_uncertain,bulgarian_choir_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),165.851,2931059
+UNC_BG_CHOIR_VOICE_001,human_uncertain,bulgarian_choir_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),306.181,5243529
+UNC_BG_CHOIR_VOICE_002,human_uncertain,bulgarian_choir_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),151.092,2659660
+UNC_BG_CHOIR_VOICE_003,human_uncertain,bulgarian_choir_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),141.531,2486232
+UNC_BG_CHOIR_VOICE_004,human_uncertain,bulgarian_choir_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),217.731,3690073
+UNC_BG_CHOIR_VOICE_005,human_uncertain,bulgarian_choir_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),87.641,1562150
+UNC_UNK_EU_MEDIEVAL_CHANT_001,human_uncertain,eu_medieval_chant,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),276.924,3284722
+UNC_UNK_EU_MEDIEVAL_CHANT_002,human_uncertain,eu_medieval_chant,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),343.223,4297914
+UNC_UNK_EU_MEDIEVAL_CHANT_003,human_uncertain,eu_medieval_chant,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),288.392,3609324
+UNC_PAC_HISTORIC_MIXED_001,human_uncertain,pacific_afroamerican_historic_mixed,.wav,PCM,2,44100,22050.0,24,181.362,47988380
+UNC_PAC_HISTORIC_MIXED_002,human_uncertain,pacific_afroamerican_historic_mixed,.wav,PCM,2,44100,22050.0,24,90.668,23990744
+UNC_PAC_HISTORIC_MIXED_003,human_uncertain,pacific_afroamerican_historic_mixed,.wav,PCM,2,44100,22050.0,24,177.459,46955564
+UNC_PAC_HISTORIC_MIXED_004,human_uncertain,pacific_afroamerican_historic_mixed,.wav,PCM,2,44100,22050.0,24,69.672,18435278
+UNC_PAC_HISTORIC_VOICE_001,human_uncertain,pacific_afroamerican_historic_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),158.041,2529207
+UNC_PAC_HISTORIC_VOICE_002,human_uncertain,pacific_afroamerican_historic_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),66.038,1057154
+UNC_PAC_HISTORIC_VOICE_003,human_uncertain,pacific_afroamerican_historic_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),178.051,3226328
+UNC_PAC_TRADITIONAL_MIXED_001,human_uncertain,pacific_afroamerican_traditional_mixed,.wav,PCM,2,48000,24000.0,16,272.987,52413518
+UNC_PAC_TRADITIONAL_MIXED_002,human_uncertain,pacific_afroamerican_traditional_mixed,.wav,PCM,2,48000,24000.0,16,225.667,43328078
+UNC_PAC_TRADITIONAL_MIXED_003,human_uncertain,pacific_afroamerican_traditional_mixed,.wav,PCM,2,48000,24000.0,16,444.493,85342798
+UNC_PAC_TRADITIONAL_MIXED_004,human_uncertain,pacific_afroamerican_traditional_mixed,.wav,PCM,2,48000,24000.0,16,231.631,44473166
+NONP_AMZ_INSTRUMENT_001,non_pastoral_human,bora_instrument,.wav,PCM,2,48000,24000.0,16,57.822,11102186
+NONP_AMZ_VOICE_001,non_pastoral_human,bora_voice,.wav,PCM,2,48000,24000.0,16,103.85,19939658
+NONP_AMZ_VOICE_002,non_pastoral_human,bora_voice,.wav,PCM,2,48000,24000.0,16,231.127,44376724
+NONP_AMZ_VOICE_003,non_pastoral_human,bora_voice,.wav,PCM,2,48000,24000.0,16,35.629,6841064
+NONP_AMZ_VOICE_004,non_pastoral_human,bora_voice,.wav,PCM,2,48000,24000.0,16,122.695,23557852
+NONP_AMZ_INSTRUMENT_002,non_pastoral_human,huitoto_instrument,.wav,PCM,2,48000,24000.0,16,72.288,13879830
+NONP_AMZ_INSTRUMENT_003,non_pastoral_human,huitoto_instrument,.wav,PCM,2,44100,22050.0,16,111.937,19746184
+NONP_AMZ_INSTRUMENT_004,non_pastoral_human,huitoto_instrument,.wav,PCM,2,44100,22050.0,16,369.322,65148940
+NONP_AMZ_INSTRUMENT_005,non_pastoral_human,huitoto_instrument,.wav,PCM,2,44100,22050.0,16,175.45,30949830
+NONP_AMZ_MIXED_001,non_pastoral_human,huitoto_mixed,.wav,PCM,2,44100,22050.0,16,222.295,39213364
+NONP_AMZ_MIXED_002,non_pastoral_human,huitoto_mixed,.wav,PCM,2,44100,22050.0,16,189.661,33456780
+NONP_AMZ_MIXED_003,non_pastoral_human,huitoto_mixed,.wav,PCM,2,44100,22050.0,16,205.452,36242228
+NONP_AMZ_MIXED_004,non_pastoral_human,huitoto_mixed,.wav,PCM,2,44100,22050.0,16,191.591,33797172
+NONP_AMZ_MIXED_005,non_pastoral_human,huitoto_mixed,.wav,PCM,2,48000,24000.0,16,90.404,17358002
+NONP_AMZ_MIXED_006,non_pastoral_human,huitoto_mixed,.wav,PCM,2,44100,22050.0,24,105.66,27957812
+NONP_AMZ_VOICE_005,non_pastoral_human,huitoto_voice,.wav,PCM,2,44100,22050.0,16,96.497,17022798
+NONP_AMZ_VOICE_006,non_pastoral_human,huitoto_voice,.wav,PCM,2,44100,22050.0,16,254.739,44936448
+NONP_AMZ_VOICE_007,non_pastoral_human,huitoto_voice,.wav,PCM,2,44100,22050.0,16,182.819,32249712
+NONP_AMZ_VOICE_008,non_pastoral_human,huitoto_voice,.wav,PCM,2,48000,24000.0,16,174.651,33533554
+NONP_INU_MIXED_001,non_pastoral_human,inuit_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),94.694,1187517
+NONP_INU_MIXED_002,non_pastoral_human,inuit_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),55.824,772678
+NONP_INU_MIXED_003,non_pastoral_human,inuit_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),81.45,1075714
+NONP_INU_MIXED_004,non_pastoral_human,inuit_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),91.559,1210346
+NONP_INU_MIXED_005,non_pastoral_human,inuit_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),86.047,1057788
+NONP_INU_MIXED_006,non_pastoral_human,inuit_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),146.051,1787495
+NONP_INU_VOICE_001,non_pastoral_human,inuit_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),171.389,2238902
+NONP_INU_VOICE_002,non_pastoral_human,inuit_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),80.457,935206
+NONP_INU_VOICE_003,non_pastoral_human,inuit_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),85.081,921316
+NONP_INU_VOICE_004,non_pastoral_human,inuit_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),115.487,1473761
+NONP_INU_VOICE_005,non_pastoral_human,inuit_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),182.491,2202319
+NONP_INU_VOICE_006,non_pastoral_human,inuit_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),139.677,1695194
+NONP_INU_VOICE_007,non_pastoral_human,inuit_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),161.228,2136123
+NONP_INU_VOICE_008,non_pastoral_human,inuit_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),234.371,2570653
+NONP_JP_SUIZEN_INSTRUMENT_001,non_pastoral_human,japan_suizen_instrument,.wav,PCM,2,44100,22050.0,16,225.991,39865008
+NONP_JP_SUIZEN_INSTRUMENT_002,non_pastoral_human,japan_suizen_instrument,.wav,PCM,2,44100,22050.0,16,387.689,68388508
+NONP_JP_SUIZEN_INSTRUMENT_003,non_pastoral_human,japan_suizen_instrument,.wav,PCM,2,44100,22050.0,16,403.031,71094924
+NONP_JP_SUIZEN_INSTRUMENT_004,non_pastoral_human,japan_suizen_instrument,.wav,PCM,2,44100,22050.0,16,387.558,68365420
+NONP_JP_SUIZEN_INSTRUMENT_005,non_pastoral_human,japan_suizen_instrument,.wav,PCM,2,44100,22050.0,16,283.647,50035536
+NONP_PAPUA_INSTRUMENT_001,non_pastoral_human,papua_instrument,.wav,PCM,2,44100,22050.0,16,87.774,15483584
+NONP_PAPUA_INSTRUMENT_002,non_pastoral_human,papua_instrument,.wav,PCM,2,44100,22050.0,16,367.763,64873668
+NONP_PAPUA_INSTRUMENT_003,non_pastoral_human,papua_instrument,.wav,PCM,2,44100,22050.0,16,289.314,51035280
+NONP_PAPUA_MIXED_001,non_pastoral_human,papua_mixed,.wav,PCM,2,44100,22050.0,16,271.579,47906862
+NONP_PAPUA_MIXED_002,non_pastoral_human,papua_mixed,.wav,PCM,2,44100,22050.0,16,128.932,22743826
+NONP_PAPUA_MIXED_003,non_pastoral_human,papua_mixed,.wav,PCM,2,44100,22050.0,16,180.793,31892104
+NONP_PAPUA_MIXED_004,non_pastoral_human,papua_mixed,.wav,PCM,2,44100,22050.0,16,107.157,18902780
+NONP_PAPUA_MIXED_005,non_pastoral_human,papua_mixed,.wav,PCM,2,44100,22050.0,16,117.645,20752880
+NONP_PAPUA_MIXED_006,non_pastoral_human,papua_mixed,.wav,PCM,2,44100,22050.0,16,139.562,24618972
+NONP_PAPUA_MIXED_007,non_pastoral_human,papua_mixed,.wav,PCM,2,44100,22050.0,16,90.805,16018184
+NONP_PAPUA_MIXED_008,non_pastoral_human,papua_mixed,.wav,PCM,2,44100,22050.0,16,87.774,15483564
+NONP_PAPUA_VOICE_001,non_pastoral_human,papua_voice,.wav,PCM,2,44100,22050.0,16,23.398,4127678
+NONP_PAPUA_VOICE_002,non_pastoral_human,papua_voice,.wav,PCM,2,44100,22050.0,16,190.68,33636152
+NONP_PAPUA_VOICE_003,non_pastoral_human,papua_voice,.wav,PCM,2,44100,22050.0,16,108.529,19144730
+NONP_PAPUA_VOICE_004,non_pastoral_human,papua_voice,.wav,PCM,2,44100,22050.0,16,84.379,14884728
+NONP_PAPUA_VOICE_005,non_pastoral_human,papua_voice,.wav,PCM,2,44100,22050.0,16,89.451,15779432
+NONP_PAPUA_VOICE_006,non_pastoral_human,papua_voice,.wav,PCM,2,44100,22050.0,16,95.617,16867060
+NONP_PAPUA_VOICE_007,non_pastoral_human,papua_voice,.wav,PCM,2,44100,22050.0,16,105.841,18670552
+PAST_AFR_FULANI_INSTRUMENT_001,pastoral_human,afr_fulani_instrument,.wav,PCM,2,44100,22050.0,16,118.0,20815278
+PAST_AFR_FULANI_INSTRUMENT_002,pastoral_human,afr_fulani_instrument,.wav,PCM,2,44100,22050.0,16,186.0,32810478
+PAST_AFR_FULANI_INSTRUMENT_003,pastoral_human,afr_fulani_instrument,.wav,PCM,2,44100,22050.0,16,147.0,25930878
+PAST_AFR_FULANI_MIXED_001,pastoral_human,afr_fulani_mixed,.wav,PCM,2,44100,22050.0,16,116.0,20462478
+PAST_AFR_FULANI_MIXED_002,pastoral_human,afr_fulani_mixed,.wav,PCM,2,44100,22050.0,16,182.0,32104878
+PAST_AFR_FULANI_MIXED_003,pastoral_human,afr_fulani_mixed,.wav,PCM,2,44100,22050.0,16,199.154,35130830
+PAST_AFR_FULANI_VOICE_001,pastoral_human,afr_fulani_voice,.wav,PCM,2,44100,22050.0,16,100.0,17640078
+PAST_AFR_FULANI_VOICE_002,pastoral_human,afr_fulani_voice,.wav,PCM,2,44100,22050.0,16,161.0,28400478
+PAST_ALP_KUHREIHEN_INSTRUMENT_001,pastoral_human,alpine_kuhreihen_instrument,.wav,PCM,1,48000,24000.0,16,70.994,6815426
+PAST_ALP_KUHREIHEN_INSTRUMENT_002,pastoral_human,alpine_kuhreihen_instrument,.wav,PCM,1,48000,24000.0,16,92.844,8913024
+PAST_ALP_KUHREIHEN_MIXED_001,pastoral_human,alpine_kuhreihen_mixed,.wav,PCM,1,48000,24000.0,16,101.505,9744484
+PAST_BR_ABOIO_MIXED_001,pastoral_human,br_aboio_mixed,.wav,PCM,1,48000,24000.0,16,212.184,20369704
+PAST_BR_ABOIO_MIXED_002,pastoral_human,br_aboio_mixed,.wav,PCM,1,48000,24000.0,16,209.328,20095522
+PAST_BR_ABOIO_MIXED_003,pastoral_human,br_aboio_mixed,.wav,PCM,1,48000,24000.0,16,164.223,15765466
+PAST_BR_ABOIO_VOICE_001,pastoral_human,br_aboio_voice,.wav,PCM,1,44100,22050.0,16,230.77,20353964
+PAST_BR_ABOIO_VOICE_002,pastoral_human,br_aboio_voice,.wav,PCM,1,44100,22050.0,16,412.758,36405292
+PAST_COVE_CANDLE_NIGHT_CHANTS_VOICE_001,pastoral_human,cove_candle_night_chants_voice,.wav,PCM,2,44100,22050.0,16,58.124,10253340
+PAST_COVE_CANDLE_NIGHT_CHANTS_VOICE_002,pastoral_human,cove_candle_night_chants_voice,.wav,PCM,2,44100,22050.0,16,36.013,6352942
+PAST_COVE_CATTLE_DRIVING_SONGS_MIXED_001,pastoral_human,cove_cattle_driving_songs_mixed,.wav,PCM,1,48000,24000.0,16,219.173,21040668
+PAST_COVE_CATTLE_DRIVING_SONGS_VOICE_001,pastoral_human,cove_cattle_driving_songs_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),144.483,4624530
+PAST_COVE_CATTLE_HERDING_CHANTS_VOICE_001,pastoral_human,cove_cattle_herding_chants_voice,.wav,PCM,1,44100,22050.0,16,66.838,5895164
+PAST_COVE_CATTLE_HERDING_CHANTS_VOICE_002,pastoral_human,cove_cattle_herding_chants_voice,.wav,PCM,1,44100,22050.0,16,77.22,6810820
+PAST_COVE_CATTLE_HERDING_CHANTS_VOICE_003,pastoral_human,cove_cattle_herding_chants_voice,.wav,PCM,1,44100,22050.0,16,50.277,4434438
+PAST_COVE_MILKING_MIXED_001,pastoral_human,cove_milking_mixed,.mp3,MPEG Layer 3,2,22050,11025.0,n/a (lossy codec),188.343,753598
+PAST_COVE_MILKING_MIXED_002,pastoral_human,cove_milking_mixed,.wav,PCM,1,48000,24000.0,16,177.773,17066284
+PAST_COVE_MILKING_VOCAL_001,pastoral_human,cove_milking_vocal,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),79.961,1918362
+PAST_COVE_MILKING_VOCAL_002,pastoral_human,cove_milking_vocal,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),33.463,804082
+PAST_COVE_MILKING_VOCAL_003,pastoral_human,cove_milking_vocal,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),172.669,5526486
+PAST_COVE_PASTORAL_SONG_MIXED_001,pastoral_human,cove_pastoral_song_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),186.514,5969523
+PAST_COVE_PASTORAL_SONG_MIXED_002,pastoral_human,cove_pastoral_song_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),180.689,5783113
+PAST_COVE_PASTORAL_SONG_MIXED_003,pastoral_human,cove_pastoral_song_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),223.922,7166558
+PAST_COVE_PASTORAL_SONG_VOICE_001,pastoral_human,cove_pastoral_song_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),113.058,3618920
+PAST_COVE_PASTORAL_SONG_VOICE_002,pastoral_human,cove_pastoral_song_voice,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),124.473,3984089
+PAST_SC_KULNING_VOICE_001,pastoral_human,sc_kulning_voice,.wav,PCM,2,44100,22050.0,24,58.967,15603600
+PAST_SC_KULNING_VOICE_002,pastoral_human,sc_kulning_voice,.wav,PCM,2,44100,22050.0,24,135.523,35860368
+PAST_SC_KULNING_VOICE_003,pastoral_human,sc_kulning_voice,.wav,PCM,2,44100,22050.0,24,101.309,26807184
+PAST_SC_KULNING_VOICE_004,pastoral_human,sc_kulning_voice,.wav,PCM,2,44100,22050.0,24,47.206,12491664
+PAST_SC_KULNING_VOICE_005,pastoral_human,sc_kulning_voice,.wav,PCM,2,44100,22050.0,24,181.981,48152948
+PAST_US_COWBOY_MIXED_001,pastoral_human,usa_cowboy_mixed,.mp3,MPEG Layer 3,2,48000,24000.0,n/a (lossy codec),282.432,11297280
+PAST_US_COWBOY_MIXED_002,pastoral_human,usa_cowboy_mixed,.mp3,MPEG Layer 3,2,44100,22050.0,n/a (lossy codec),140.147,3364290
+PAST_US_COWBOY_VOICE_001,pastoral_human,usa_cowboy_voice,.mp3,MPEG Layer 3,2,48000,24000.0,n/a (lossy codec),90.024,3600960
+PAST_US_COWBOY_VOICE_002,pastoral_human,usa_cowboy_voice,.mp3,MPEG Layer 3,2,48000,24000.0,n/a (lossy codec),166.632,6665280
+VAR_SC_KOKNING_001,pastoral_variants,sc_kokning,.wav,PCM,2,44100,22050.0,24,60.929,16122768
+VAR_SC_KOKNING_002,pastoral_variants,sc_kokning,.wav,PCM,2,44100,22050.0,24,69.091,18282384

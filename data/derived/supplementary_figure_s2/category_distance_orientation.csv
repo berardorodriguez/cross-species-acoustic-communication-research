@@ -1,0 +1,10 @@
+category_order,canonical,category_label,n_group_level_one_minute_intervals,distance_from_grazing_call_reference_LNU1_LNU2,mean_source_directed_orientation_s_min_equivalent,sd_source_directed_orientation_s_min_equivalent
+1,BASELINE,Baseline/rest,44,3.187929259,13.96710486,4.33762305
+2,RUIDO_ROSA,Pink noise,14,2.988376409,12.55208938,4.548585816
+3,SILBOS,Herding whistles,4,2.50346749,11.35699928,3.902917336
+4,PASTOREO,Grazing calls (bovine),8,0,17.56307088,1.426766811
+5,CANTO_ORDENO,Milking songs,4,0.54461009,16.45107337,2.216593471
+6,KULNING,Kulning,4,0.1241429758,17.06600598,2.194931966
+7,GRITO_MONTE,Range shouts,4,3.006541349,11.45484788,4.063060862
+8,VAQUERIA,Cattle-herding calls,2,4.10067262,8.969604863,0.6490767414
+9,FERIA,Pre-slaughter calls (bovine),6,3.839481677,10.77152408,3.063560971

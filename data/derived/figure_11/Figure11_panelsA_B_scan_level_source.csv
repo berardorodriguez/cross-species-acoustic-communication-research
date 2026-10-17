@@ -1,0 +1,91 @@
+source_scan_row,condition,d1,d2,p1
+1,Control,1,14,1
+2,Control,1,15,2
+3,Control,0,13,1
+4,Control,1,14,2
+5,Control,1,15,2
+6,Control,0,13,1
+7,Control,1,14,2
+8,Control,1,15,1
+9,Control,0,13,2
+10,Control,1,14,2
+11,Control,1,15,1
+12,Control,0,13,2
+13,Control,1,14,1
+14,Control,1,15,2
+15,Control,0,13,2
+16,Control,1,14,1
+17,Control,1,15,2
+18,Control,0,13,1
+19,Control,1,14,2
+20,Control,1,15,2
+21,Control,0,13,1
+22,Control,1,14,2
+23,Control,1,15,1
+24,Control,0,13,2
+25,Control,1,14,2
+26,Control,1,15,1
+27,Control,0,13,2
+28,Control,1,14,1
+29,Control,1,15,2
+30,Control,0,13,2
+31,Obonuco,1,16,3
+32,Obonuco,1,15,2
+33,Obonuco,1,16,3
+34,Obonuco,1,16,3
+35,Obonuco,1,15,3
+36,Obonuco,1,16,3
+37,Obonuco,1,16,2
+38,Obonuco,1,15,3
+39,Obonuco,1,16,3
+40,Obonuco,1,16,3
+41,Obonuco,1,15,3
+42,Obonuco,1,16,2
+43,Obonuco,1,16,3
+44,Obonuco,1,15,3
+45,Obonuco,1,16,3
+46,Obonuco,1,16,3
+47,Obonuco,1,15,2
+48,Obonuco,1,16,3
+49,Obonuco,1,16,3
+50,Obonuco,1,15,3
+51,Obonuco,1,16,3
+52,Obonuco,1,16,2
+53,Obonuco,1,15,3
+54,Obonuco,1,16,3
+55,Obonuco,1,16,3
+56,Obonuco,1,15,3
+57,Obonuco,1,16,2
+58,Obonuco,1,16,3
+59,Obonuco,1,15,3
+60,Obonuco,1,16,3
+61,Pink noise,1,18,0
+62,Pink noise,0,17,1
+63,Pink noise,1,18,0
+64,Pink noise,0,17,1
+65,Pink noise,1,18,0
+66,Pink noise,0,17,0
+67,Pink noise,1,18,1
+68,Pink noise,0,17,0
+69,Pink noise,1,18,1
+70,Pink noise,0,17,0
+71,Pink noise,1,18,0
+72,Pink noise,0,17,1
+73,Pink noise,1,18,0
+74,Pink noise,0,17,1
+75,Pink noise,1,18,0
+76,Pink noise,0,17,0
+77,Pink noise,1,18,1
+78,Pink noise,0,17,0
+79,Pink noise,1,18,1
+80,Pink noise,0,17,0
+81,Pink noise,1,18,0
+82,Pink noise,0,17,1
+83,Pink noise,1,18,0
+84,Pink noise,0,17,1
+85,Pink noise,1,18,0
+86,Pink noise,0,17,0
+87,Pink noise,1,18,1
+88,Pink noise,0,17,0
+89,Pink noise,1,18,1
+90,Pink noise,0,17,0

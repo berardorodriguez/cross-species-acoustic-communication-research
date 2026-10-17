@@ -1,0 +1,49 @@
+{
+  "description": "Derived plotting coordinates for representative time-frequency spectrograms in Figure 1 panels A and B. The four source WAV files are not included.",
+  "categories": {
+    "GC": "author-collected Colombian grazing-call example",
+    "PSC": "author-collected Colombian pre-slaughter-call example",
+    "LFC": "BovineTalk low-frequency-call example",
+    "HFC": "BovineTalk high-frequency-call example"
+  },
+  "processing": {
+    "sample_rate_hz": 48000,
+    "fft_size": 1024,
+    "hop_length_samples": 256,
+    "window": "periodic Hann",
+    "maximum_plotted_frequency_hz": 3500,
+    "display_range_db": [
+      -80,
+      0
+    ],
+    "time_limit_seconds": 4,
+    "mono_conversion": "arithmetic mean across channels",
+    "resampling": "soxr HQ to 48 kHz when required",
+    "spectral_level": "magnitude relative to each recording maximum; floor at -80 dB"
+  },
+  "source_audio_sha256": {
+    "LFC": "E4C112EAF3ACEE2A8405BC53EDB1694EB15F4E53E39E3CD7E7751ADB54E504B5",
+    "HFC": "19292D4C2522A8DCFAA91BC41F7D103529BECBFA46DE088ECD3E33215244270A"
+  },
+  "data_file": "Figure01_representative_spectrograms.npz",
+  "data_sha256": "E5A49F672A606113DEA40448E90954D0A6D411756DFD55B5025E08B2564014F7",
+  "shapes": {
+    "GC": [
+      75,
+      299
+    ],
+    "LFC": [
+      75,
+      233
+    ],
+    "PSC": [
+      75,
+      208
+    ],
+    "HFC": [
+      75,
+      346
+    ]
+  },
+  "license": "CC BY 4.0 for the derived plotting data; BovineTalk LFC/HFC examples attributed to Gavojdian et al. (2024). Source recordings are not redistributed."
+}
