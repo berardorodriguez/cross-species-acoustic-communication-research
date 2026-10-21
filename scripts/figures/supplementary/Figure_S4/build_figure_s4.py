@@ -37,9 +37,9 @@ def main() -> None:
     package = root / "figures" / "supplementary" / "Figure_S4"
     outdir = package / ("00_FINAL" if args.release else "00_REBUILD")
     provdir = package / "02_PROVENANCE"
-    source_dir = provdir / "SOURCE_DATA"
     outdir.mkdir(parents=True, exist_ok=True)
-    source_dir.mkdir(parents=True, exist_ok=True)
+    public_data_dir = root / "data" / "derived" / "supplementary_figure_s4"
+    public_data_dir.mkdir(parents=True, exist_ok=True)
 
     source_path = root / "data" / "derived" / "figure_09" / "Figure09_OAAS_plot_coordinates.csv"
     source = pd.read_csv(source_path)
@@ -60,7 +60,7 @@ def main() -> None:
     nodes = pd.concat([pd.DataFrame(centroids), nodes], ignore_index=True)
     nodes["function"] = nodes.role
     nodes["source_record"] = "Figure09_OAAS_plot_coordinates.csv"
-    source_csv = source_dir / "FigureS4__exact_node_coordinates.csv"
+    source_csv = public_data_dir / "FigureS4_exact_node_coordinates.csv"
     nodes[["id", "family", "role", "branch", "variant", "PC1", "PC2", "nearest_bovine_class", "source_record"]].to_csv(source_csv, index=False, float_format="%.17g")
 
     plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 8})
