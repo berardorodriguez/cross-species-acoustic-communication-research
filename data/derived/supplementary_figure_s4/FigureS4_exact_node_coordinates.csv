@@ -1,0 +1,13 @@
+id,family,role,branch,variant,PC1,PC2,nearest_bovine_class,source_record
+O1_fragments_centroid,O1,fragment_centroid,fragment centroid,,164.00001940191697,157.89544333346731,GC,Figure09_OAAS_plot_coordinates.csv
+O2_fragments_centroid,O2,fragment_centroid,fragment centroid,,152.63189700005185,151.80902083144676,GC,Figure09_OAAS_plot_coordinates.csv
+O1_long,O1,base,Base,,-2625.076864526362,-2667.0696841004647,LFC,Figure09_OAAS_plot_coordinates.csv
+O2_long,O2,base,Base,,-2645.5297248219217,-2675.2069077030942,LFC,Figure09_OAAS_plot_coordinates.csv
+ON1a_long,O1,negative,ON,a,-3210.3444170971616,-3257.0970796989063,LFC,Figure09_OAAS_plot_coordinates.csv
+ON1b_long,O1,negative,ON,b,-3206.7584331892831,-3268.4620889943594,HFC,Figure09_OAAS_plot_coordinates.csv
+ON2a_long,O2,negative,ON,a,-2633.9920889999439,-2673.4489968198709,LFC,Figure09_OAAS_plot_coordinates.csv
+ON2b_long,O2,negative,ON,b,-2627.9455099038591,-2680.1398705614311,HFC,Figure09_OAAS_plot_coordinates.csv
+OP1a_long,O1,positive,OP,a,-2627.4977540612749,-2668.1787871377906,LFC,Figure09_OAAS_plot_coordinates.csv
+OP1b_long,O1,positive,OP,b,-2625.5644882271035,-2667.5125219659526,LFC,Figure09_OAAS_plot_coordinates.csv
+OP2a_long,O2,positive,OP,a,-2645.7584586651169,-2675.037812849273,LFC,Figure09_OAAS_plot_coordinates.csv
+OP2b_long,O2,positive,OP,b,-2645.7151995252816,-2675.3828802006719,LFC,Figure09_OAAS_plot_coordinates.csv
