@@ -37,6 +37,29 @@ python scripts/oaas/compute_oaas_distances.py --oaas_dir outputs/OAAS_MACRO
 
 The scripts reproduce model fits, projections, bovine-centroid distances, and nearest-class assignments from an existing feature table. They do not extract features from audio or regenerate the 180-s ensembles.
 
+## MICRO–MACRO random-assembly Null
+
+The released `data/derived/assembly_null/null_iteration_results.csv` contains the 500 valid planned realizations (base seeds 10000–10499), and `c2_frozen_micro_hfc_obonuco_ids.csv` records the 127 Obonuco fragments selected as HFC-nearest in MICRO. Recompute the descriptive summary from the released results with:
+
+```bash
+python scripts/oaas/summarize_assembly_null.py \
+  --results-csv data/derived/assembly_null/null_iteration_results.csv \
+  --output-csv outputs/assembly_null/null_summary.csv
+```
+
+The Monte Carlo upper-tail values use the plus-one estimate `(count + 1) / (N + 1)`. For C2, ties count in the upper tail; the observed value is reproduced exactly in 146 of 500 realizations, with no exceedances.
+
+To rerun the primary 500-realization simulation, install `environment/requirements-oaas-core-validated.txt` and provide authorized local access to the source bovine recordings. The audio root must contain `analysis_ready_clean/BOVINE_CORE/`; the recordings are not included in this repository. From the repository root, run:
+
+```bash
+python scripts/oaas/run_assembly_null.py \
+  --audio-corpus-root /path/to/authorized_audio_corpus \
+  --output-dir outputs/assembly_null \
+  --stage primary
+```
+
+The sanitized corpus metadata, frozen MACRO feature table, and C2 ID list default to the copies packaged here. The script regenerates 20 category-specific 180-s ensembles per realization, extracts the 208 descriptors, refits the bovine-centered MACRO OAAS, projects the comparison set, and records C1/C2. Temporary generated audio and intermediate feature files are removed after each iteration. This full rerun route requires external recordings and is not executable from the public repository alone; the released results table permits independent recomputation of the reported summary.
+
 ## Acoustic-to-HRV analysis
 
 The GEE script runs from the packaged 126-row model input under `data/derived/hrv_acoustic_alignment/`. Install `environment/requirements-hrv-model.txt` and run `python scripts/hrv_alignment/fit_gee_models.py --output-dir outputs/hrv_models` from the repository root to reproduce the primary and sensitivity models. The separate alignment and section-weighting scripts are included, but require the individual-level Kubios physiology input, which is not distributed; therefore those upstream tables cannot be regenerated from this repository alone. The packaged model route does not process audio and does not estimate causal effects or physiological latency.

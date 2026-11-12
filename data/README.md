@@ -16,4 +16,6 @@ This directory contains metadata and selected derived data supporting the associ
 
 `derived/supplementary_figure_s3/` contains 552 five-second acoustic-information windows and a small count manifest used to validate Supplementary Figure S3. The plotting script runs from these packaged inputs. The upstream window-generation script is included for transparency but requires the source audio fragments, which are not distributed.
 
+`derived/assembly_null/` contains the 500-iteration MICRO–MACRO random-assembly Null results, the frozen 127 Obonuco IDs selected as HFC-nearest in MICRO, and a summary table. The summary can be regenerated from the results CSV. Repeating the full simulation requires authorized access to source bovine recordings that are not included in this repository.
+
 The source-audio corpus is not included. Reproducing the complete audio-to-feature processing requires authorized access to the corresponding recordings and is outside the included package.

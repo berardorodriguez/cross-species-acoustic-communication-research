@@ -13,12 +13,15 @@ The materials support inspection and selected reproduction routes for the analys
 - Main-article figures and the data or scripts needed for supported rebuilds.
 - Supplementary Methods, Supplementary Figures, and Supplementary Tables, each provided as PDF and Markdown.
 - Metadata datasets and selected derived acoustic and physiological-analysis tables.
+- The 500-iteration random-assembly Null results, frozen MICRO-selected C2 IDs, and scripts to reproduce their summary and rerun the analysis when the source recordings are available.
 - Scripts and pinned environment files for figure production, selected OAAS fitting and distance calculations, and the reported acoustic-to-HRV analyses.
 - One short Obonuco O1/FASE audio example for listening context, subject to the separate terms in `LICENSE_AUDIO`.
 
 ## Reproduction scope
 
 The approved figure files and three supplementary PDFs are included. Figure 1 can be rebuilt from packaged derived spectrogram arrays and category profiles; no source WAV files are needed by its renderer or distributed in this repository. BovineTalk-derived LFC/HFC values are attributed in the data metadata. The OAAS fitting route starts from the path-sanitized, packaged MICRO and MACRO feature tables. The acoustic-to-HRV route starts from its compact, derived model input and does not process audio.
+
+The released assembly-Null iteration table and frozen C2 ID set are under `data/derived/assembly_null/`. The summary script reproduces the reported Null summary from those released values. Rerunning all 500 realizations requires authorized access to the bovine source recordings, which are not distributed here.
 
 See `REPRODUCIBILITY.md` for supported commands, software environments, and route-specific limits.
 
@@ -34,7 +37,7 @@ The Figure 13 pictograms were generated using ChatGPT (OpenAI), including GPT-5.
 
 ## Citation and reuse
 
-Please cite the associated article and this repository when using these materials. Code is released under the MIT License in `LICENSE_CODE`, including OAAS-derived adaptations; see `THIRD_PARTY_NOTICES.md` for the preserved upstream notice. The 60 files listed in `docs/DATA_LICENSE_FILE_MANIFEST.csv` are released under CC BY 4.0. Figures, supplementary documents, and audio have separate rights and licensing conditions. Audio terms are file-scoped in `LICENSE_AUDIO` and do not grant reuse rights for other content.
+Please cite the associated article and this repository when using these materials. Code is released under the MIT License in `LICENSE_CODE`, including OAAS-derived adaptations; see `THIRD_PARTY_NOTICES.md` for the preserved upstream notice. The 63 files listed in `docs/DATA_LICENSE_FILE_MANIFEST.csv` are released under CC BY 4.0. Figures, supplementary documents, and audio have separate rights and licensing conditions. Audio terms are file-scoped in `LICENSE_AUDIO` and do not grant reuse rights for other content.
 
 ## File verification
 

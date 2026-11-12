@@ -135,7 +135,13 @@ def main():
             out_name = make_output_name(cls, i)
             out_path = args.output_dir / out_name
             sf.write(out_path.as_posix(), y, args.sample_rate, subtype="PCM_16")
-            rel_out = out_path.resolve().relative_to(corpus_root).as_posix()
+            try:
+                rel_out = out_path.resolve().relative_to(corpus_root).as_posix()
+            except ValueError:
+                # Outputs may be written to a separate analysis directory.
+                # The manifest only needs the generated filename; never embed
+                # an absolute local output path in a portable package.
+                rel_out = out_path.name
             rows.append({
                 "id": f"BCORE_{cls.upper()}_ENS_{i:03d}",
                 "file_name": out_name,

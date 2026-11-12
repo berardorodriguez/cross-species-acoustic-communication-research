@@ -34,10 +34,10 @@ The pre-compositional playback study involved 70 lactating Holstein cows. A rand
 
 ## Bovine reference categories and OAAS construction
 
-For the MACRO bovine reference, five derived 180-s ensembles were generated separately for each category (GC, LFC, HFC, PSC) from the corresponding class-specific source pool. Source recordings were loaded as mono audio at 22,050 Hz and low-level leading and trailing segments were trimmed using a 30-dB threshold. Within each category, source order was shuffled with deterministic class- and ensemble-specific seeds. Recordings were concatenated until the target duration was reached; when a recording exceeded the remaining duration, a randomly selected contiguous segment filled the remainder. The source pool was reshuffled and reused as needed. Each completed ensemble was peak-normalized to 0.99 and written as 16-bit PCM WAV. These are derived acoustic representations from the source recordings, not additional independent biological recordings. The 208 acoustic descriptors were extracted anew from each completed 180-s ensemble; MACRO feature values were not calculated by summing MICRO feature values. The MICRO and MACRO representations were standardized and fitted independently. For feature i, standardization was calculated as follows, with mean_i and standard deviation SD_i estimated from the corresponding bovine reference data:
+For the MACRO bovine reference, five derived 180-s ensembles were generated separately for each category (GC, LFC, HFC, PSC) from the corresponding class-specific source pool. Source recordings were loaded as mono audio at 22,050 Hz and low-level leading and trailing segments were trimmed using a 30-dB threshold. Within each category, source order was shuffled with deterministic class- and ensemble-specific seeds. Recordings were concatenated until the target duration was reached; when a recording exceeded the remaining duration, a randomly selected contiguous segment filled the remainder. The source pool was reshuffled and reused as needed. Each completed ensemble was peak-normalized to 0.99 and written as 16-bit PCM WAV. These are derived acoustic representations from the source recordings, not additional independent biological recordings. The MICRO and MACRO representations were standardized and fitted independently. For feature i, standardization was calculated as follows, with the mean μ_i and standard deviation σ_i estimated from the corresponding bovine reference data:
 
 $$
-z_i = \frac{x_i - mean_i}{SD_i}
+z_i = \frac{x_i - \mu_i}{\sigma_i}
 $$
 
 PCA was fitted to the bovine reference and comparison materials were projected using that scale-specific transformation. Euclidean distances to bovine category centroids were calculated within the applicable representation; quantitative nearest-reference analyses retained PC1–PC10. For a projected point p and category centroid c_k, Euclidean distance across the ten retained components was calculated as follows:
@@ -48,7 +48,7 @@ $$
 
 Figure 5A's display uses its separate LNU1–LNU2 coordinates.
 
-Relative positioning between two bovine reference centroids A and B was summarized using the Reference Alignment Index (RAI), where d_A and d_B are the distances from the tested configuration to the respective centroids:
+Relative positioning between two bovine reference centroids A and B was summarized using the relative acoustic index (RAI), where d_A and d_B are the distances from the tested configuration to the respective centroids:
 
 $$
 RAI_{A,B} = \frac{d_B - d_A}{d_B + d_A}
@@ -56,9 +56,21 @@ $$
 
 Thus, the LFC–HFC Balance is `(d_HFC − d_LFC)/(d_HFC + d_LFC)`, and the GC–PSC Balance is `(d_PSC − d_GC)/(d_PSC + d_GC)`. Each bounded contrast ranges from −1 to 1; positive values indicate relative proximity to LFC or GC, respectively, and negative values indicate relative proximity to HFC or PSC.
 
+### Prespecified random-assembly Null
+
+We compared the observed MACRO statistics with 500 randomly assembled bovine reference realizations using the prespecified base seeds 10000–10499. In each realization, the ensemble generator produced five 180-s ensembles for each of the four bovine categories (GC, LFC, HFC, PSC; 20 ensembles total) by seeded random ordering and concatenation of category-specific source recordings; when a source recording exceeded the remaining duration, a randomly selected contiguous segment filled the ensemble. The 208 acoustic descriptors were extracted anew from every ensemble. The bovine-centered OAAS model was then refitted for that realization, and the frozen comparison materials were projected into its MACRO representation. This procedure generated random-assembly baselines from the available recordings; it did not resample animals or create additional biological observations.
+
+Two prespecified statistics were calculated for each realization. C1 was the cumulative proportion of variance explained by PC1–PC3 in the fitted bovine reference representation. C2 was the proportion of a frozen set of 127 Obonuco vocal fragments assigned to GC as their nearest bovine reference in MACRO; these fragments had first been selected because they were HFC-nearest in the independently fitted MICRO representation. For each statistic, the observed value was compared with the 500-realization distribution; the one-sided plus-one Monte Carlo upper-tail estimate was `(r + 1)/(500 + 1)`, where `r` is the number of Null values equal to or greater than the observed value. A realization was retained only if the ensemble counts and class labels, 208-feature extraction, fitted PCA and centroids, projected comparison set, and finite distance/assignment outputs passed the recorded structural checks. All 500 planned realizations passed; no invalid attempts or replacement seeds occurred. These checks establish computational completion and output integrity, not biological independence or receiver-perception validity.
+
 ### Transcultural, cross-species, and instrumental comparisons
 
 Pastoral and non-pastoral vocal materials, porcine vocalizations, and acoustic controls were compared with the bovine reference categories using the corresponding scale-specific feature-processing and projection procedures. Pastoral classification followed documented cultural context and primary function in livestock coordination or management. Candidate musical-instrument materials were processed through the same applicable pipeline, and Euclidean distances to bovine reference centroids were used as an exploratory aid for source-material selection.
+
+### Leave-one-reference-unit-out sensitivity checks
+
+To assess how individual GC reference units influenced the pastoral-human nearest-reference assignments, we used the retained derived OAAS projections in the independently fitted MICRO and MACRO representations. The full-reference baseline was first reproduced from the saved PC1–PC10 coordinates, confirming the Figure 6 counts (MICRO: 8/42 GC-nearest; MACRO: 28/42). For each leave-one-out run, we recomputed the GC centroid as the arithmetic mean of the remaining GC reference-unit coordinates in the applicable frozen PC1–PC10 space. Feature scaling, PCA coordinates, the LFC, HFC, and PSC centroids, and the 42 pastoral-human projections were kept fixed. We then recalculated Euclidean nearest-reference assignments and counted items whose assignment differed from baseline.
+
+MICRO contains 11 individual GC call reference units; MACRO contains five GC ensemble reference units. We also conducted a separate MACRO check omitting each pastoral-human exemplar in turn while retaining all reference centroids. This sensitivity analysis addresses dependence of the descriptive nearest-reference pattern on the composition of the retained reference set. It does not refit the OAAS pipeline, quantify population-level uncertainty, test affective meaning, or provide independent biological validation. The checks were conducted from derived feature/projection tables; source audio was not reprocessed.
 
 ## Behavioral and physiological responses to acoustic stimuli
 
@@ -114,33 +126,25 @@ $$
 TL = \sum_{k=1}^{12} \sqrt{\sum_{j=1}^{3}(x_{k+1,j} - x_{k,j})^2}
 $$
 
-For each configuration, let x_{k,j} denote the coordinate of fragment k (k = 1,…,13) on principal component j (j = 1, 2, 3), and let mean_j denote the mean coordinate on component j across the 13 fragments. Trajectory dispersion (TD) is the sum of the three population variances (ddof = 0):
+Trajectory dispersion (TD) is the sum of the population variances of the 13 fragment coordinates on PC1, PC2, and PC3 (population variance; ddof = 0):
 
 $$
-TD = \sum_{j=1}^{3} \left[\frac{1}{13}\sum_{k=1}^{13}(x_{k,j} - mean_j)^2\right]
-$$
-
-$$
-mean_j = \frac{1}{13}\sum_{k=1}^{13}x_{k,j}
+TD = Var_0(PC1) + Var_0(PC2) + Var_0(PC3)
 $$
 
 TL and TD summarize the organization of the ordered fragment representation; they are distinct from centroid-distance balances.
 
 ## Statistical and computational analyses
 
-No observations were removed from the retained inferential analyses under a statistical outlier rule. Analysis-specific sample sizes reflect the stated cohort, temporal-support, and predictor-matching criteria; these analytic eligibility criteria are distinct from the source-recording quality screen described above.
-
 ### Post-compositional HRV: confirmatory condition trajectories
 
 Polar H10-based telemetry was used in the 19-cow physiological cohort (Obonuco *n* = 7, Control *n* = 6, Pink noise *n* = 6). Records were processed in Kubios HRV Scientific v4.1. For Figure 11D, raw RMSSD was estimated from overlapping 300-s windows advanced in 60-s increments. These adjacent windows overlap by 80%; the Figure 11D curves and their across-animal mean ± SD are descriptive.
 
-Confirmatory inference over the common 0–60-min interval used lnRMSSD, with 61 repeated records per cow (1,159 records total). We fitted a Gaussian generalized estimating equation (GEE) with condition, a centered natural cubic spline for time (4 degrees of freedom), and the Condition × Time interaction. Cow was the clustering unit; the working correlation was AR(1), with bias-reduced covariance. The global interaction was assessed jointly with 8 degrees of freedom. Three prespecified pairwise global trajectory contrasts (Obonuco–Control, Pink noise–Control, and Obonuco–Pink noise) were adjusted using Holm's method.
-
-The global interaction was supported (Wald chi-squared(8) = 54.5695, *p* = 5.352 × 10^(-9)); the Obonuco–Pink noise contrast remained supported (Holm *p* = 0.000563), whereas Obonuco–Control and Pink noise–Control did not (Holm *p* = 0.977591 for each).
+Confirmatory inference over the common 0–60-min interval used lnRMSSD, with 61 repeated records per cow (1,159 records total). We fitted a Gaussian generalized estimating equation (GEE) with condition, a centered natural cubic spline for time (4 degrees of freedom), and the Condition × Time interaction. Cow was the clustering unit; the working correlation was AR(1), with bias-reduced covariance. The global interaction was assessed jointly with 8 degrees of freedom. Three prespecified pairwise global trajectory contrasts (Obonuco–Control, Pink noise–Control, and Obonuco–Pink noise) were adjusted using Holm's method. The global interaction was supported (Wald χ²(8) = 54.5695, *p* = 5.352 × 10^(-9)); the Obonuco–Pink noise contrast remained supported (Holm *p* = 0.000563), whereas Obonuco–Control and Pink noise–Control did not (Holm *p* = 0.977591 for each).
 
 ### Post-compositional HRV: phase transitions and inter-individual coordination
 
-Within the seven-cow FASE/Obonuco cohort, the fixed sequence comprised PRE, O11, an intervening interval, and O12. The prespecified phase-transition family compared the cow-level mean lnRMSSD for the intervening interval with O11 and O12 with the intervening interval. Each contrast used an exact two-sided paired sign-flip test over all 128 possible sign patterns; Holm correction covered the two contrasts. For O12–intervening, the mean paired difference was 0.07082 (SD 0.06312; six cows increased and one decreased; raw *p* = 0.03125; Holm *p* = 0.0625). For intervening–O11, the mean paired difference was 0.03775 (SD 0.07617; five cows increased and two decreased; raw and Holm *p* = 0.328125). The O12–O11 comparison is descriptive, and the fixed order does not isolate an O12-specific effect.
+Within the seven-cow FASE/Obonuco cohort, the fixed sequence comprised PRE, O11, an intervening interval, and O12. The prespecified phase-transition family compared the cow-level mean lnRMSSD for the intervening interval with O11 and O12 with the intervening interval. Each contrast used an exact two-sided paired sign-flip test over all 2⁷ = 128 sign patterns; Holm correction covered the two contrasts. For O12–intervening, the mean paired difference was 0.07082 (SD 0.06312; six cows increased and one decreased; raw *p* = 0.03125; Holm *p* = 0.0625). For intervening–O11, the mean paired difference was 0.03775 (SD 0.07617; five cows increased and two decreased; raw and Holm *p* = 0.328125). The O12–O11 comparison is descriptive, and the fixed order does not isolate an O12-specific effect.
 
 Inter-individual coordination during O11 was evaluated for RMSSD and Stress Index in seven cows (21 animal pairs; 23 records per cow). For each metric, pairwise Spearman correlations were evaluated at lags −2 to +2 on the 300-s HRV windows advanced by 60 s (80% overlap); the primary statistic was the median pairwise maximum positive correlation across that lag range. The null distribution used 10,000 independent circular shifts of animal time series, with the full lag-optimization procedure repeated for each randomization and one animal fixed as the rotation anchor. The observed lag-optimized median correlations were 0.223 for RMSSD and 0.173 for Stress Index; each fell within its empirical null 95% interval (0.079–0.484 and 0.032–0.499, respectively). Upper-tail probabilities were adjusted by Holm across the two metrics. Neither metric exceeded the null expectation (RMSSD Holm *p* = 1.000; Stress Index Holm *p* = 1.000). This analysis does not establish shared affect, a causal mechanism, or physiological latency.
 
@@ -152,31 +156,27 @@ No feature association was supported. Per 1-SD increase in each predictor, the l
 
 ### Operational definitions of acoustic predictors
 
-In the O1 predictor table, the column named `roughness` is the mean spectral-flatness value, computed from the magnitude short-time Fourier transform (STFT) using the acoustic-scoring pipeline (22,050-Hz mono audio; 4,096-sample FFT; 512-sample hop; spectral flatness averaged over frames). It is a descriptor of the distribution of spectral energy, not the peak-pair dissonance curve shown in Figure 7D. Figure 7D uses a separate framewise measure: for 50-ms Hann-windowed STFT frames advanced by 25 ms, the 20 strongest spectral peaks are retained and their amplitudes normalized to the strongest peak. For each pair of distinct peaks m and n, let a_m and a_n be their amplitudes normalized to the strongest peak in the frame, and let f_m and f_n be their frequencies in Hz. The pairwise contribution and frequency-separation term are:
+In the O1 predictor table, the column named `roughness` is the mean spectral-flatness value, computed from the magnitude short-time Fourier transform (STFT) using the acoustic-scoring pipeline (22,050-Hz mono audio; 4,096-sample FFT; 512-sample hop; spectral flatness averaged over frames). It is a descriptor of the distribution of spectral energy, not the peak-pair dissonance curve shown in Figure 7D. Figure 7D uses a separate framewise measure: for 50-ms Hann-windowed STFT frames advanced by 25 ms, the 20 strongest spectral peaks are retained and their amplitudes normalized to the strongest peak. Pairwise dissonance contributions are calculated for amplitudes a_1 and a_2 and peak frequencies f_1 and f_2 as follows. Negative contributions are set to zero, and positive contributions are summed per frame:
 
 $$
-D_{mn} = a_m a_n (e^{-3.5x_{mn}} - e^{-5.75x_{mn}})
+D = a_1 a_2 (e^{-3.5x} - e^{-5.75x})
 $$
 
-$$
-x_{mn} = \frac{0.24|f_m-f_n|}{0.021\min(f_m,f_n)+19}
-$$
 
-Framewise roughness is the sum across the 190 distinct pairs among the 20 retained peaks, with negative contributions truncated at zero:
 
 $$
-R_t = \sum_{m<n}\max(D_{mn}, 0)
+x = \frac{0.24|f_1-f_2|}{0.021\min(f_1,f_2)+19}
 $$
 
 For the display, the O1 and O2 series are jointly min–max normalized and smoothed with successive moving-average kernels of 151 and 31 samples. The two measures have different definitions and scales and should not be interpreted as interchangeable measurements of one feature.
 
-The predictor A_adj is a constructed acoustic score, not an observation of bovine arousal or affect. The scoring script first transforms each available descriptor into a direction-adjusted deviation from the local pastoral reference median, divided by that reference IQR and clipped to 0–3. For features designated “higher is worse,” the deviation is `(value − local median)/local IQR`; for features designated “lower is worse,” it is `(local median − value)/local IQR`; negative deviations are set to zero. The base score is the logistic transform of a weighted sum of nine direction-adjusted descriptor scores. Here, logistic(u) = 1/(1 + e^(−u)):
+The predictor A_adj is a constructed acoustic score, not an observation of bovine arousal or affect. The scoring script first transforms each available descriptor into a direction-adjusted deviation from the local pastoral reference median, divided by that reference IQR and clipped to 0–3. For features designated “higher is worse,” the deviation is `(value − local median)/local IQR`; for features designated “lower is worse,” it is `(local median − value)/local IQR`; negative deviations are set to zero. The base score is a logistic transform of a weighted sum of nine direction-adjusted descriptor scores:
 
 $$
 A_{base} = \operatorname{logistic}(0.20s_{RMS} + 0.18s_{onset} + 0.15s_{BPM} + 0.12s_{centroid} + 0.10s_{ZCR} + 0.08s_{bandwidth} + 0.07s_{HF/LF} + 0.05s_{tilt} + 0.05s_{SNR})
 $$
 
-The adjusted score is clipped to the unit interval [0, 1]:
+The adjusted score is:
 
 $$
 A_{adj} = \operatorname{clip}(A_{base} + 0.08P_{HF} - 0.06R_{LF}, 0, 1)

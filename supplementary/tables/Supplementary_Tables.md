@@ -64,3 +64,30 @@
 | Pre-slaughter holding calls (bovine) | 6 | 10.8 | 3.1 |
 
 **Note.** Baseline denotes rest/silence intervals in the playback masters, labelled ‘Baseline (rest, normalized noise floor)’ in the source data; pink noise is a separate stimulus condition. Values summarize the proportion of cattle displaying source-oriented ethogram configurations in each one-minute group observation. For presentation, the proportion was multiplied by 60 s/min and is reported on an s/min-equivalent scale; it is not the duration of an individual animal’s gaze. The dataset contains 90 intervals: 30 observations from each of three assembled playback masters (T1–T3). N is the number of repeated analytical intervals, not the number of animals or independent biological replicates. The source-oriented proportion used a scan-specific denominator derived as the sum of four distance-zone counts; these denominators ranged from 68 to 72. Values are the mean and standard deviation across intervals in each category. These summaries are descriptive and do not imply preference, attraction, positive affect, or welfare benefit.
+
+## Supplementary Table S3
+
+**Leave-one-reference-unit-out sensitivity of GC-nearest pastoral assignments in the frozen MICRO and MACRO OAAS representations.**
+
+| Representation | Omitted GC reference unit | Pastoral assignments changed (n = 42) | GC-nearest after omission (n/42) |
+|---|---|---:|---:|
+| MICRO | None (baseline) | 0 | 8/42 |
+| MICRO | BCORE_GEN_GC_001 | 1 | 7/42 |
+| MICRO | BCORE_GEN_GC_002 | 2 | 8/42 |
+| MICRO | BCORE_GEN_GC_003 | 4 | 12/42 |
+| MICRO | BCORE_GEN_GC_004 | 1 | 7/42 |
+| MICRO | BCORE_GEN_GC_005 (TP3) | 17 | 25/42 |
+| MICRO | BCORE_GEN_GC_006 | 3 | 5/42 |
+| MICRO | BCORE_GEN_GC_007 | 4 | 4/42 |
+| MICRO | BCORE_GEN_GC_008 | 0 | 8/42 |
+| MICRO | BCORE_GEN_GC_009 | 1 | 7/42 |
+| MICRO | BCORE_GEN_GC_010 | 2 | 6/42 |
+| MICRO | BCORE_GEN_GC_011 | 1 | 9/42 |
+| MACRO | None (baseline) | 0 | 28/42 |
+| MACRO | BCORE_GC_ENS_001 | 6 | 22/42 |
+| MACRO | BCORE_GC_ENS_002 | 0 | 28/42 |
+| MACRO | BCORE_GC_ENS_003 | 1 | 29/42 |
+| MACRO | BCORE_GC_ENS_004 | 2 | 26/42 |
+| MACRO | BCORE_GC_ENS_005 | 1 | 29/42 |
+
+**Note.** Each leave-one-out check recomputed only the GC centroid from the remaining GC reference units; the fitted feature scaling, PCA coordinates, other bovine centroids, and 42 pastoral-human projections were held fixed. ‘Assignments changed’ is the number of pastoral items whose nearest bovine reference differed from the full-reference baseline. In a separate MACRO check, omitting each pastoral exemplar in turn while retaining the full reference centroids yielded 27/41–28/41 GC-nearest assignments (65.9%–68.3%). These deterministic sensitivity checks use retained derived representations; they are not bootstrap confidence intervals, independent validation, or tests of affective meaning. Baseline assignments reproduce Figure 6 (MICRO 8/42 and MACRO 28/42 GC-nearest).
